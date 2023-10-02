@@ -1,0 +1,167 @@
+body{
+  background-color: #F6FCFF;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "sans-serif";
+}
+
+input::placeholder,
+textarea::placeholder{
+  font-family: "Montserrat", "sans-serif";
+  color: #aaa;
+}
+
+input:focus,
+textarea:focus{
+  outline: none;
+}
+
+a, nav button{
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #000;
+  transition: .4s;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 1em;
+  text-decoration: none;
+}
+
+a:hover,
+nav button:hover{
+  color: #bbb;
+}
+
+/* form styles */
+
+form{
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+label span {
+  margin-bottom: .3em;
+  font-weight: bold;
+  text-align: left;
+}
+input,
+textarea{
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid;
+  padding: .8em 0;
+  background-color: transparent;
+}
+
+.btn{
+  background-color: #43004c;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 120px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+}
+
+.btn.btn-dark{
+  background-color: #000;
+  border-radius: 0;
+}
+
+.btn.btn-outline{
+  background-color: transparent;
+  border-radius: 0;
+  color: #000;
+  border: 1px solid black;
+  padding: 7px 30px;
+}
+
+.btn:hover{
+  background-color: #0F730c;
+  color: #fff;
+}
+
+.btn.btn-outline:hover{
+  background-color: #000;
+}
+
+.btn.btn-danger:hover{
+  background-color: #dc3545;
+
+}
+
+button[disabled]{
+  background-color: #aaa;
+}
+
+.container .error{
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.error{
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 5px;
+  border-radius: 5px;
+}
+.detalhes{
+  padding: 8px;
+  border-radius: 3px;
+  background-color: white;
+  border: #0a0007 1px solid;
+}  
+.btn-modal{
+  padding: 8px;
+  margin: 10px;
+  background-color: #eb0101;
+  border: #0a0007 1px solid;
+  border-radius: 5px;
+  width: 30%;
+  color: white;
+}
+.button-modal{
+  display: flex;
+
+}
+ul.pagination.pagination-lg {
+  font-size: 20px; 
+  display: flex;
+  list-style: none;
+
+} 
+.btn-att{
+background-color: #43004c;
+color: #fff;
+cursor: pointer;
+text-align: center;
+border-radius: 5px;
+width: 20%;
+padding: 10px;
+margin: auto;
+}
+li{
+  list-style: none;
+}
+.btn-modal-pegar{
+  padding: 8px;
+  margin: 10px;
+  background-color: #dfb9e4;
+  border: #0a0007 1px solid;
+  border-radius: 5px;
+  width: 30%;
+  color: white;
+}
